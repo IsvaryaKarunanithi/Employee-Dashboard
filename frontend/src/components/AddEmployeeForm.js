@@ -1,7 +1,7 @@
-// src/components/AddEmployeeForm.js
+
 import React, { useState, useEffect } from 'react';
 import { addEmployee, updateEmployee } from '../services/employeeService';
-import './AddEmployeeForm.css'; // Create this CSS file for styling
+import './AddEmployeeForm.css'; 
 
 const AddEmployeeForm = ({ selectedEmployee, onFormSubmit }) => {
   const [formData, setFormData] = useState({

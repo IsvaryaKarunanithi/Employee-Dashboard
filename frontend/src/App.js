@@ -1,4 +1,4 @@
-// src/App.js
+
 import React, { useState } from 'react';
 import EmployeeList from './components/EmployeeList';
 import AddEmployeeForm from './components/AddEmployeeForm';

@@ -1,6 +1,6 @@
-// src/components/EmployeeCard.js
+
 import React from 'react';
-import './EmployeeCard.css'; // Create this CSS file for styling
+import './EmployeeCard.css'; 
 
 const EmployeeCard = ({ employee, onEdit, onDelete }) => {
   return (

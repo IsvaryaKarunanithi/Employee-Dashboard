@@ -1,10 +1,10 @@
-// src/components/EmployeeList.js
+
 import React, { useEffect, useState } from 'react';
 import EmployeeCard from './EmployeeCard';
 import { getEmployees, deleteEmployee } from '../services/employeeService';
 import './EmployeeList.css';
 
-const EmployeeList = ({ onEdit, refresh }) => { // Added refresh prop
+const EmployeeList = ({ onEdit, refresh }) => { 
   const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
