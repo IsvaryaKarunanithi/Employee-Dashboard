@@ -1,0 +1,7 @@
+/* src/components/EmployeeList.css */
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
